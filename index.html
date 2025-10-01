@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+
     <title>Ryan Powis' Links</title>
 
     <style>
+      /*
       * {
         border: thin red solid;
       }
+      */
 
       html {
         min-height: 100%;
@@ -37,10 +42,12 @@
         height: 48px;
         object-fit: cover;
         border-radius: 48px;
+        
       }
 
         a {
         color: rgba(255, 255, 255, 1.0);
+        text-decoration: none;
       }
 
       .main-container {
@@ -56,13 +63,19 @@
       .name-row {
         margin-bottom: 20px;
         text-align: center;
+        font-family: "Georgia";
+        font-size: 28px;
+        font-weight: 900;
       }
 
       .social-icons-row {
         margin-bottom: 30px;
         display: flex;
         justify-content: space-around;
-        padding-bottom: 8px; 
+        padding-bottom: 8px;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: 700; 
       }
 
       .item {
@@ -70,9 +83,8 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        margin-top: 8px;
-        padding-top: 8px;
-        padding-bottom: 8px; 
+        gap: 12px;
+        box-shadow: 4px 4px 10px 0px rgba(69,71,74,0);
       }
 
       .link-text {
@@ -98,21 +110,21 @@
       <div class="item">
         <img src="/Images/Github.jpg" class="thumbnail">
     <a href="https://github.com/rpowis52" target="_blank">
-      Github
+      <i class="fa-brands fa-github"></i> Github
     </a>
     </div>
 
     <div class="item">
         <img src="/Images/LinkedIn.jpg" class="thumbnail">
     <a href="https://www.linkedin.com/in/ryan-powis/" target="_blank">
-      LinkedIn
+      <i class="fa-brands fa-linkedin"></i> LinkedIn
     </a>
     </div>
 
     <div class="item">
       <img src="/Images/Instagram.jpg" class="thumbnail">
     <a href="https://www.instagram.com/rypowis/" target="_blank">
-      Instagram
+      <i class="fa-brands fa-instagram"></i> Instagram
     </a>
     </div>
 
