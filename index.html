@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Ryan Powis' Links</title>
 
@@ -37,13 +38,40 @@
         border-radius: 48px;
       }
 
+        a {
+        color: rgba(255, 255, 255, 1.0);
+      }
+
       .main-container {
         max-width: 640px;
         margin: auto;
       }
 
-      a {
-        color: rgba(255, 255, 255, 1.0);
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;  
+      }
+
+      .item {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
       }
 
     </style>
@@ -68,7 +96,6 @@
     </div>
 
     <div class="item">
-      <div class="item">
         <img src="/Images/LinkedIn.jpg" class="thumbnail">
     <a href="https://www.linkedin.com/in/ryan-powis/" target="_blank">
       LinkedIn
@@ -83,19 +110,6 @@
     </div>
 
   </div>
-
-  <div class="links-row">
-<div class="item">
-  First Link
-</div>
-
-<div class="item">
-    Second Item
-  </div>
-
-<div class="item">
-    Third Item
-</div>
 
        </div> <!-- links-row -->
   </div> <!-- main-container -->
